@@ -801,6 +801,7 @@ input[type="checkbox"] {
 }
 .input-wrapper {
   position: relative;
+  display: block;
 }
 .input-option:focus + .input-icon {
   fill: #4d5ae5;
