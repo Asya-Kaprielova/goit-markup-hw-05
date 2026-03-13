@@ -489,14 +489,14 @@
         <div class="subscribe-block">
           <div class="subscribe"><p class="subscribe-title">Subscribe</p></div>
           <div class="subscribe-form-block">
-            <div class="subscribe-form">
+            <form class="subscribe-form">
               <ul class="footer-form-list">
                 <li class="footer-form-item">
                   <label class="footer-form">
                     <input
                       type="email"
                       name="email"
-                      placeholder="Email"
+                      placeholder="E-mail"
                       class="input-email-footer"
                       required
                   /></label>
@@ -510,7 +510,7 @@
                   </button>
                 </li>
               </ul>
-            </div>
+            </form>
           </div>
         </div>
       </div>
@@ -523,47 +523,52 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="form-option">
+          <label class="form"
+            >Name
+            <div class="input-wrapper">
+              <input type="text" name="name" class="input-name" required /><svg
+                class="input-icon"
+                width="18"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-persin-icon"></use>
+              </svg></div
+          ></label>
+        </form>
+        <form class="form-option">
+          <label class="form"
+            >Phone
+            <div class="input-wrapper">
+              <input type="tel" name="phone" class="input-phone" required /><svg
+                class="input-icon"
+                width="18"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-phone-icon"></use>
+              </svg></div
+          ></label>
+        </form>
         <div class="form-option">
-          <label class="form">Name</label>
-          <div class="input-wrapper">
-            <input type="text" name="name" class="input-name" required /><svg
-              class="input-icon"
-              width="12"
-              height="12"
-            >
-              <use href="./images/icons.svg#icon-persin-icon"></use>
-            </svg>
-          </div>
+          <label class="form"
+            >Email
+            <div class="input-wrapper">
+              <input
+                type="email"
+                name="email"
+                class="input-email"
+                required
+              /><svg class="input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-icon"></use>
+              </svg></div
+          ></label>
         </div>
-        <div class="form-option">
-          <label class="form">Phone</label>
-          <div class="input-wrapper">
-            <input type="tel" name="phone" class="input-phone" required /><svg
-              class="input-icon"
-              width="13"
-              height="13"
-            >
-              <use href="./images/icons.svg#icon-phone-icon"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="form-option">
-          <label class="form">Email</label>
-          <div class="input-wrapper">
-            <input type="email" name="email" class="input-email" required /><svg
-              class="input-icon"
-              width="15"
-              height="12"
-            >
-              <use href="./images/icons.svg#icon-email-icon"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="form-option">
-          <label class="form">
+        <form class="form-option">
+          <label class="form"
+            >Comment
             <textarea name="form-message" placeholder="Text input"></textarea>
           </label>
-        </div>
+        </form>
         <div class="checkbox">
           <input
             type="checkbox"
