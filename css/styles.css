@@ -53,7 +53,7 @@ ul {
   top: 0;
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
-  z-index: 999;
+  z-index: 900;
   box-shadow:
     0 2px 1px rgba(46, 47, 66, 0.08),
     0 1px 1px rgba(46, 47, 66, 0.16),
@@ -494,7 +494,7 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1000;
+  z-index: 999;
   display: flex;
   justify-content: center;
   align-items: center;
